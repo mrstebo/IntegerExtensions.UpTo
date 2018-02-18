@@ -45,7 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpToExtensionTests.cs" />
+    <Compile Include="UpToByteExtension.cs" />
+    <Compile Include="UpToInt16ExtensionTests.cs" />
+    <Compile Include="UpToInt32ExtensionTests.cs" />
+    <Compile Include="UpToInt64ExtensionTests.cs" />
+    <Compile Include="UpToSByteExtension.cs" />
+    <Compile Include="UpToUInt16ExtensionTests.cs" />
+    <Compile Include="UpToUInt32ExtensionTests.cs" />
+    <Compile Include="UpToUInt64ExtensionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

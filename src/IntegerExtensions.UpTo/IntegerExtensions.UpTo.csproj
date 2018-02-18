@@ -38,8 +38,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UpToExtension.cs" />
+    <Compile Include="UpToByteExtension.cs" />
+    <Compile Include="UpToInt16Extension.cs" />
+    <Compile Include="UpToInt32Extension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpToInt64Extension.cs" />
+    <Compile Include="UpToSByteExtension.cs" />
+    <Compile Include="UpToUInt16Extension.cs" />
+    <Compile Include="UpToUInt32Extension.cs" />
+    <Compile Include="UpToUInt64Extension.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
