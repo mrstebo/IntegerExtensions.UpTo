@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IntegerExtensions.UpTo</id>
+    <version>$version$</version>
+    <authors>mrstebo</authors>
+    <owners>mrstebo</owners>
+    <licenseUrl>https://github.com/mrstebo/IntegerExtensions.UpTo/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mrstebo/IntegerExtensions.UpTo</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A nicer read than Enumerable.Range.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>integer extensions upto</tags>
+  </metadata>
+  <files>
+    <file src="src\IntegerExtensions.UpTo\bin\$target$\IntegerExtensions.UpTo.dll" target="lib" />
+  </files>
+</package>
